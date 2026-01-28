@@ -20,5 +20,5 @@ let myObjects = {
 };
 
 for(key in myObjects){
-    console.log("key: ", key, "| type: ", typeof myObjects[key] );
+    console.log("key: ", key, "| type:", typeof myObjects[key]);
 }

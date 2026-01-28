@@ -1,15 +1,7 @@
 /**
- * Display the physics marks as output
+ * Check whether a string contains all the vowels: a, e, i, o, u
  */
 
-const student = {
-    name: "Hamim Sakep",
-    id: 5421,
-    Physics: {
-        subject: "HSC Physics",
-        author: "Shajahan Tapan",
-        marks: 30
-    }
-}
+let sentence = "My Name is Shafrin Ahamed, I came from Noakhali";
 
-console.log(student.Physics.marks);
+console.log(sentence.includes("a", "e", "i", "o", "u"));
