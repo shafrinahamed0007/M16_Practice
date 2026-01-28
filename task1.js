@@ -11,4 +11,4 @@ const color = {
 }
 
 const goldenRod = color['golden rod'];
-console.log(goldenRod);
+console.log(color["golden rod"])
